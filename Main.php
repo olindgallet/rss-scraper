@@ -1,4 +1,6 @@
 <?php 
+	set_time_limit(0);
+	
 	/** Replace with an auto-loader **/
 	require_once('Backend/DesignPatterns/DateConditional.php');
 	require_once('Backend/DesignPatterns/SourceInterface.php');
