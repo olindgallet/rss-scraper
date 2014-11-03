@@ -49,7 +49,7 @@ class EmailCommand implements \DesignPatterns\ReportCommand{
 		$headers = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		$headers .= 'From: <reddit-mailer-bot@your-site.com>' . "\r\n";
-		mail($email, $title, $message, $headers);
+		mail($this->email, $title, $message, $headers);
 	}
 }
 ?>
